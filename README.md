@@ -46,7 +46,7 @@ verify invoice
 ```python
 from sepordeh.payment import verify_invoice
 
-# returns response amount cardNumber cardHashPan
+# returns card , invoice_id
 verify_invoice(merchant='' , authority='')
 
 ```
